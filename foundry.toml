@@ -1,0 +1,28 @@
+# The Default Profile
+[default]
+# This overrides the `auto_detect_solc` value
+solc_version = '0.8.13'
+auto_detect_solc = false
+# Increase optimizer_runs
+optimizer = true
+optimizer_runs = 1_000
+# Fuzz more than the default 256
+fuzz_runs = 1_000
+# Configure remappings
+remappings = [
+  "@ds=lib/ds-test/src/",
+  "@solmate=lib/solmate/src/",
+  "@clones=lib/clones-with-immutable-args/src/",
+  "@openzeppelin/contracts=lib/openzeppelin-contracts/contracts/",
+  "@openzeppelin/contracts-upgradeable=lib/openzeppelin-contracts-upgradeable/contracts/",
+  "@playpen=lib/playpen/",
+  "@token-migrator=lib/token-migrator/",
+  "@lil-web3=lib/lil-web3/",
+  "@manifoldxyz/creator-core-solidity=lib/creator-core-solidity/",
+  "@manifoldxyz/libraries-solidity=node_modules/@manifoldxyz/libraries-solidity",
+  "@eth-optimism/contracts=node_modules/@eth-optimism/contracts"
+]
+
+# Extreme Fuzzing CI Profile
+[ci]
+fuzz_runs = 100_000

@@ -1,0 +1,30 @@
+[submodule "lib/ds-test"]
+	path = lib/ds-test
+	url = https://github.com/dapphub/ds-test
+[submodule "lib/solmate"]
+	path = lib/solmate
+	url = https://github.com/rari-capital/solmate
+[submodule "lib/forge-std"]
+	path = lib/forge-std
+	url = https://github.com/brockelmore/forge-std
+[submodule "lib/clones-with-immutable-args"]
+	path = lib/clones-with-immutable-args
+	url = https://github.com/ZeframLou/clones-with-immutable-args
+[submodule "lib/lil-web3"]
+	path = lib/lil-web3
+	url = https://github.com/m1guelpf/lil-web3
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "lib/openzeppelin-contracts-upgradeable"]
+	path = lib/openzeppelin-contracts-upgradeable
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable
+[submodule "lib/playpen"]
+	path = lib/playpen
+	url = https://github.com/ZeframLou/playpen
+[submodule "lib/token-migrator"]
+	path = lib/token-migrator
+	url = https://github.com/ZeframLou/token-migrator
+[submodule "lib/creator-core-solidity"]
+	path = lib/creator-core-solidity
+	url = https://github.com/manifoldxyz/creator-core-solidity

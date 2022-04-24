@@ -1,0 +1,6 @@
+build
+coverage
+out
+lib
+node_modules
+bin
